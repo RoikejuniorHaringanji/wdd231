@@ -50,18 +50,23 @@
         <!--machester united-->
     </section>
 
-    <section>
-        <div class="certificate-container">
-                <h2>Web and Computer Programming Certificate</h2>
-                <div class="filter-buttons">
-                  <button id="allButton">All</button>
-                  <button id="cseButton">CSE</button>
-                  <button id="wddButton">WDD</button>
-                </div>
-                <div id="courseContainer" class="course-container"></div>
-                <p id="totalCredits"></p>
-              </div>
-    </section>
+    <div class="certificate-container">
+        <h1>Web and Computer Programming Certificate</h1>
+        <div class="filter-buttons">
+            <button onclick="filterCourses('all')">All</button>
+            <button onclick="filterCourses('CSE')">CSE</button>
+            <button onclick="filterCourses('WDD')">WDD</button>
+        </div>
+        <div class="course-list">
+            <div class="course-box CSE">CSE 110</div>
+            <div class="course-box WDD">WDD 130</div>
+            <div class="course-box CSE">CSE 111</div>
+            <div class="course-box CSE">CSE 210</div>
+            <div class="course-box WDD">WDD 131</div>
+            <div class="course-box WDD">WDD 231</div>
+        </div>
+    </div>
+
 
    <footer>
     <p>© <span id="2025"></span> 🌺 Haringanji Roike 🌺 Uganda <img src="images/Uganda flag.png" alt="pearl of Africa" width="20"></p> <!-- Fixed width issue -->
