@@ -1,87 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haringanji Roike's Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1, h2, h3 {
-            text-align: center;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Haringanji Roike | WDD 231</title> 
+    <meta name="description" content="Haringanji Roike, BYU-Idaho WDD 231 course home page">
+    <meta name="author" content="Haringanji Roike">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
-    <div class="container">
+   <header>
+    <div class="hed">
+        <img src="images/Roike-min.jpeg" alt="Image of Haringanji Roike">
         <h1>Haringanji Roike</h1>
-        <p>Software Development Student</p>
-        <p>Contact: 256-756260851 | roikejunior07@gmail.com</p>
-
-        <div class="section">
-            <h2>Summary</h2>
-            <p>Motivated and ambitious BYU student pursuing a Bachelor of Software Development...</p>
-        </div>
-
-        <div class="section">
-            <h2>Experience</h2>
-            <h3>Wholesale Manager (2020-2021)</h3>
-            <p>Independent Wholesaler, Kampala, Uganda...</p>
-            
-            <h3>Stationery Attendant (June 2022 – August 2022)</h3>
-            <p>Grace-stationery, Kampala, Uganda...</p>
-        </div>
-
-        <div class="section">
-            <h2>Education</h2>
-            <h3>Brigham Young University</h3>
-            <p>Bachelor of Science in Software Development, Jan 2024-present</p>
-            
-            <h3>BYU Pathway Worldwide</h3>
-            <p>PathwayConnect Certificate, Jan 2024-July 2024</p>
-        </div>
-
-        <div class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming: Python, MySQL, CSS</li>
-                <li>Retail Skills: Printing, scanning, Typing and customer interaction</li>
-                <li>Leadership</li>
-                <li>Problem solving</li>
-                <li>Time management</li>
-                <li>Team Collaboration</li>
-                <li>Honest and Dependable</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Achievements</h2>
-            <p>Successfully transitioned a manual wholesale system into a semi-automated process...</p>
-        </div>
-
-        <div class="section">
-            <h2>Certification</h2>
-            <ul>
-                <li>BYU Pathway Connect Certificate</li>
-                <li>Good Web and Computer Programming Certificate</li>
-            </ul>
-        </div>
     </div>
+    <nav>
+        <div class="navbar">
+            <button id="hamburger">☰</button>
+            <nav id="navMenu" class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/RoikejuniorHaringanji">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/roike-junior-7b0299334">LinkedIn</a></li>
+            </ul>
+        </nav>
+        </div>
+    </nav>
+   </header> 
+   <main>
+    <section>
+    <div class="table1">
+        <h2>Course Work</h2>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+    <div class="table2">
+        <h2>Kampala, Uganda</h2>
+        <img src="images/Baobab tree.jpeg" alt="Baobab trees">
+        <figure>Baobab trees</figure>
+    </div>
+</section>
+<section>
+</section>
+<section>
+    <div class="certificate-container">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+              <button id="allButton">All</button>
+              <button id="cseButton">CSE</button>
+              <button id="wddButton">WDD</button>
+            </div>
+            <div id="courseContainer" class="course-container"></div>
+            <p id="totalCredits"></p>
+          </div>
+</section>
+</main>
+    
+   <footer>
+    <p>© <span id="2025"></span> 🌺 Haringanji Roike 🌺 Uganda <img src="images/Uganda flag.png" alt="pearl of Africa" width="20"></p> <!-- Fixed width issue -->
+    <p id="lastModified" class="header-highlight">Last Modified: <span id="last-modified-date"></span></p>
+</footer>
+   
 </body>
 </html>

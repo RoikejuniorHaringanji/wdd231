@@ -28,7 +28,7 @@ header {
 
 .navbar ul li a {
     padding: 50px;
-    font-size: 1.5em;
+    font-size: 1rem;
     text-decoration: none;
     color: #fff;
     transition: all 0.4s ease; /* Corrected transition */
@@ -59,7 +59,69 @@ header {
     color: #e3dede;
     padding-right: 40px;
 }
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #100202;
+}
 
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #f7f7f8;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fbf7f7;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #hamburger {
+        display: flex; 
+    }
+
+    #navMenu {
+        display: none;
+    }
+    #navMenu.show {
+        display: flex;
+        flex-direction: row; 
+    }
+}
 section {
     margin-top: 10px;
     display: flex;
@@ -185,59 +247,55 @@ footer img {
 span {
     padding: 0;
 }
-
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #eef5eb;
+  }
+  
+  .certificate {
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.certificate-container {
-    background-color: #2c5d72;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
     margin: 20px auto;
     width: 80%;
-}
-
-.filter-buttons button {
+    max-width: 800px;
+  }
+  
+  .filter-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
     background-color: black;
     color: white;
-    padding: 10px 20px;
-    margin: 10px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-}
-
-.course-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.course-box {
-    background-color: #8b5c41;
-    color: white;
-    padding: 20px;
-    margin: 10px;
     border-radius: 5px;
-    width: 150px;
-    text-align: center;
-}
-
-footer {
-    background-color: #2c5d72;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #444;
+  }
+  
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .course-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  .course-card.completed {
+    background-color: #c3e6cb; /* Green for completed */
+    border-color: #155724;
+  }
+  
+  .course-card:not(.completed) {
+    background-color: #f8d7da; /* Red for not completed */
+    border-color: #721c24;
+  }
   
