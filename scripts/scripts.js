@@ -6,7 +6,7 @@ if (currentYearElement) {
 
 // Update the "last modified" date dynamically in the footer
 const lastModifiedElement = document.getElementById("last-modified-date");
-if (lastModifiedElement) {
+if (lastModifiedElement) { 
     lastModifiedElement.textContent = document.lastModified;
 }
 const hamburgerButton = document.getElementById("hamburger");
