@@ -31,7 +31,7 @@ header {
     font-size: 1rem;
     text-decoration: none;
     color: #fff;
-    transition: all 0.4s ease; /* Corrected transition */
+    transition: all 0.4s ease; 
 }
 
 .navbar ul li a:hover {
@@ -51,7 +51,7 @@ header {
     padding: 10px;
     border-radius: 20px;
     padding-right: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Corrected box-shadow */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
     shape-rendering: auto;
 }
 
@@ -59,69 +59,65 @@ header {
     color: #e3dede;
     padding-right: 40px; 
 }
-/* Base styles */
+/* Style the navigation */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: #100202;
+    background-color: #333;
+    padding: 10px;
 }
 
 .nav-menu {
-    display: flex;
-    gap: 1rem;
-}
-
-.nav-menu ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 1rem;
-}
-
-.hamburger {
-    font-size: 1.5rem;
-    background: none;
-    border: none;
-    color: hsl(240, 30%, 95%);
-    cursor: pointer;
-    outline: none;
-    display: none;
-}
-.nav-menu {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
+    gap: 20px;
 }
 
 .nav-menu a {
     text-decoration: none;
-    color: #fbf7f7;
+    color: white;
     font-weight: bold;
+    padding: 10px;
 }
-
-@media screen and (max-width: 768px) {
+#hamburger {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #f8fafb;
+    cursor: pointer;
+    outline: none;
+    display: none; 
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: rgb(7, 1, 1);
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
     #hamburger {
-        display: flex; 
+        display: block; 
     }
-
+  
     #navMenu {
         display: none;
     }
     #navMenu.show {
-        display: flex;
-        flex-direction: row; 
+        display: block;
+        flex-direction: column; 
     }
-}
+  }
+  
 section {
     margin-top: 10px;
     display: flex;
@@ -162,11 +158,15 @@ h2 {
 }
 
 .table2 img {
-    width: 250px;
-    height: 200px;
-    padding-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    max-width: 100%;  
+    height: auto;     
+    display: block;   
+    margin: 0 auto
+}
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
 }
 
 .certificate-container {
@@ -290,12 +290,12 @@ body {
   }
   
   .course-card.completed {
-    background-color: #c3e6cb; /* Green for completed */
+    background-color: #c3e6cb; 
     border-color: #155724;
   }
   
   .course-card:not(.completed) {
-    background-color: #f8d7da; /* Red for not completed */
+    background-color: #f8d7da; 
     border-color: #721c24;
   }
   
