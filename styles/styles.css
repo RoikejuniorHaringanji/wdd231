@@ -57,7 +57,7 @@ header {
 
 .hed h1 {
     color: #e3dede;
-    padding-right: 40px;
+    padding-right: 40px; 
 }
 /* Base styles */
 .navbar {
@@ -85,7 +85,7 @@ header {
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: #f7f7f8;
+    color: hsl(240, 30%, 95%);
     cursor: pointer;
     outline: none;
     display: none;
@@ -177,7 +177,7 @@ h2 {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
     width: 87%;
     margin-left: 15px;
 }
