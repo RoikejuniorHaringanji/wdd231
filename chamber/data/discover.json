@@ -1,0 +1,69 @@
+{
+	"cards": [
+	  {
+		"title": "La Boca & Caminito",
+		"image": "images/la-boca.webp",
+		"alt": "La Boca & Caminito",
+		"address": "La Boca, Buenos Aires, Argentina",
+		"description": "A vibrant neighborhood known for its colorful buildings, tango performances, and street art.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Teatro Colón",
+		"image": "images/teatro-colon.webp",
+		"alt": "Teatro Colón",
+		"address": "Cerrito 628, Buenos Aires, Argentina",
+		"description": "One of the world's most renowned opera houses, famous for its breathtaking architecture and acoustics.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Plaza de Mayo & Casa Rosada",
+		"image": "images/plaza-de-mayo.webp",
+		"alt": "Plaza de Mayo & Casa Rosada",
+		"address": "Plaza de Mayo, Buenos Aires, Argentina",
+		"description": "The historical and political heart of Argentina, home to the presidential palace.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Recoleta Cemetery",
+		"image": "images/Recoleta-cemetery.webp",
+		"alt": "Recoleta Cemetery",
+		"address": "Junín 1760, Buenos Aires, Argentina",
+		"description": "A famous cemetery known for its impressive mausoleums, including the tomb of Eva Perón.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Palermo Parks & Lakes",
+		"image": "images/palermo-parks.webp",
+		"alt": "Palermo Parks & Lakes",
+		"address": "Palermo, Buenos Aires, Argentina",
+		"description": "A vast green space with beautiful lakes, gardens, and outdoor activities perfect for a relaxing day out.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Museo Nacional de Bellas Artes",
+		"image": "images/museo-nacional.webp",
+		"alt": "Museo Nacional de Bellas Artes",
+		"address": "Av. del Libertador 1473, Buenos Aires, Argentina",
+		"description": "The National Museum of Fine Arts houses an extensive collection of Argentine and international art.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "Puerto Madero",
+		"image": "images/puerto-madero.webp",
+		"alt": "Puerto Madero",
+		"address": "Puerto Madero, Buenos Aires, Argentina",
+		"description": "A modern waterfront district filled with upscale restaurants, shops, and impressive architecture.",
+		"button": "Learn More"
+	  },
+	  {
+		"title": "El Ateneo Grand Splendid",
+		"image": "images/el-ateneo.webp",
+		"alt": "El Ateneo Grand Splendid",
+		"address": "Av. Santa Fe 1860, Buenos Aires, Argentina",
+		"description": "A historic bookshop housed in a former theater, renowned for its architecture and extensive collection.",
+		"button": "Learn More"
+	  }
+	]
+  }
+  

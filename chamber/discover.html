@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Buenos Aires Chamber">
+	<meta property="og:type" content="website">
+	<meta property="og:image:alt" content="Buenos Aires Chamber Logo">
+	<meta property="og:image" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/images/chamber.jpeg">
+	<meta property="og:url" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/directory.html">
+	<meta property="og:description" content="Discover local businesses and foster collaboration with Buenos Aires Chamber.">
+	<meta name="facebook:card" content="summary_large_image">
+	<meta name="description" content="Buenos Aires Chamber Directory">
+	<meta name="author" content="Haringanji Roike">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/discover.css">
+    <title>Buenos Aires Chamber Directory</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="logo">
+            <img src="images/logo.png" alt="Buenos Aires Chamber Directory">
+           
+        </div>
+        <nav>
+            <button id="hamburger">☰</button>
+            <div id="navMenu" class="nav-menu">
+                <a href="index.html" aria-label="Navigate to Home">Home</a>
+                <a href="directory.html" aria-label="Navigate to Directory">Directory</a>
+                <a href="join.html" aria-label="Navigate to About Us">Join</a>
+                <a href="discover.html" aria-label="Navigate to Contact Us">Discover</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Buenos-Aires Business Chamber</h1>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Chamber Directory Web</h2>
+                <a href="#" class="hero-button" aria-label="Learn more about the Buenos Aires Business Chamber Directory">LEARN MORE</a>
+            </div>
+        </section>
+        
+        <!-- Section with grid container -->
+        <section class="grid-container" id="cards-container">
+            <h2>Business Directory</h2>
+            <!-- Your directory content goes here -->
+            <div id="visitor-message"></div>
+
+        </section>
+    </main>
+    
+    <footer class="footer">
+		<div class="footer-info">
+			<p>Email us at: <a href="mailto:info@buenosaireschamber.com">info@buenosaireschamber.com</a></p>
+			<p>789 Commerce Street, Buenos Aires, </p>
+			<p>Phone: +54-11-9876-5432</p>
+			<p>Fax: +54-11-9876-5433</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        </div>
+        <div class="footer-info">
+          <p>WDD 231 Class Project</p>
+          <p>*** Haringanji Roike *** Uganda</p>
+          <p>&copy; <span class="currentyear"></span> Buenos Aires Chamber</p>
+          <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+      </div>
+      
+    </footer>
+    <script src="scripts/cards.js" defer></script>
+</body>
+</html>
