@@ -1,0 +1,63 @@
+/* General Styles */
+:root {
+    --primary-color: #4CAF50; 
+    --secondary-color: #f0f8ff;
+    --text-color: #000;
+    --background-color: #f0f0f0;
+    --font-family: 'Arial', sans-serif;
+    --font-heading: 'Georgia', serif;
+    --transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Header and Footer */
+header, footer {
+	background-color: #4CAF50;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+	height: 80px;
+	width: 100%;
+}
+
+/* Typography */
+h1 {
+	font-family: 'Arial', sans-serif;
+}
+
+h2.section-heading {
+	font-family: 'Georgia', serif;
+	color: #4CAF50;
+}
+
+/* Sections */
+section {
+	margin: 2rem;
+	padding: 1rem;
+}
+ 
+/* Wireframe Images */
+.wireframe {
+    object-fit: cover; 
+    display: flex; 
+    margin: 0 auto; 
+}
+
+/* Content */
+.content {
+	font-family: 'Arial', sans-serif;
+}
+
+/* Color Scheme */
+.color-scheme {
+	background-color: #4CAF50;
+	color: white;
+}
+
+/* Responsive Design (Optional - You can expand this for mobile adjustments) */
+@media (max-width: 768px) {
+	section {
+		margin: 1rem;
+		padding: 0.5rem;
+	}
+}

@@ -1,0 +1,170 @@
+{
+		"trails": [
+			{
+				"name": "Sunset Peak Trail",
+				"difficulty": "Moderate",
+				"distance": "5.2 miles",
+				"description": "A scenic trail offering breathtaking views of the valley at sunset.",
+				"image": "images/sunset.webp"
+			},
+			{
+				"name": "Forest Loop",
+				"difficulty": "Easy",
+				"distance": "2.8 miles",
+				"description": "A peaceful loop through dense woodlands with plenty of wildlife.",
+				"image": "images/forest.webp"
+			},
+			{
+				"name": "Mountain Ridge Path",
+				"difficulty": "Hard",
+				"distance": "7.5 miles",
+				"description": "A challenging hike along a high ridge with panoramic views.",
+				"image": "images/mountain.webp"
+			},
+			{
+				"name": "Lakeside Trail",
+				"difficulty": "Easy",
+				"distance": "3.3 miles",
+				"description": "A flat and easy trail following the serene lake shoreline.",
+				"image": "images/lakeside.webp"
+			},
+			{
+				"name": "Rocky Cliffs Hike",
+				"difficulty": "Hard",
+				"distance": "6.0 miles",
+				"description": "A steep hike with stunning cliffside views and rock formations.",
+				"image": "images/rocky.webp"
+			},
+			{
+				"name": "Hidden Waterfall Trail",
+				"difficulty": "Moderate",
+				"distance": "4.1 miles",
+				"description": "A rewarding hike leading to a beautiful hidden waterfall.",
+				"image": "images/hidden.webp"
+			},
+			{
+				"name": "Canyon Overlook Path",
+				"difficulty": "Easy",
+				"distance": "2.0 miles",
+				"description": "A short trail leading to a breathtaking canyon overlook.",
+				"image": "images/canyon.webp"
+			},
+			{
+				"name": "River Bend Trail",
+				"difficulty": "Moderate",
+				"distance": "5.8 miles",
+				"description": "A winding trail that follows the curves of a scenic river.",
+				"image": "images/river.webp"
+			},
+			{
+				"name": "Summit Challenge Trail",
+				"difficulty": "Hard",
+				"distance": "8.2 miles",
+				"description": "An advanced trail leading to the summit with a rewarding view.",
+				"image": "images/summit.webp"
+			},
+			{
+				"name": "Wildflower Meadow Walk",
+				"difficulty": "Easy",
+				"distance": "3.5 miles",
+				"description": "A gentle walk through fields of vibrant wildflowers.",
+				"image": "images/wildflower.webp"
+			}
+			{
+  "trails": [
+    {
+      "name": "Lush Valley Walk",
+      "emoji": "🍃🏞️",
+      "description": "A scenic hike through a green valley with a gentle stream."
+    },
+    {
+      "name": "Glacier View Hike",
+      "emoji": "🏔️❄️",
+      "description": "Walking along icy trails with breathtaking glacier views."
+    },
+    {
+      "name": "Sunrise Ascent",
+      "emoji": "🌅⛰️",
+      "description": "An early morning hike with a golden sunrise."
+    },
+    {
+      "name": "Golden Autumn Trail",
+      "emoji": "🍂🧡",
+      "description": "A fall hike with colorful leaves carpeting the path."
+    },
+    {
+      "name": "Cloud Forest Adventure",
+      "emoji": "☁️🌲",
+      "description": "Trekking through a misty, high-altitude rainforest."
+    },
+    {
+      "name": "Cave Exploration",
+      "emoji": "🏕️🕵️",
+      "description": "Adventurers discovering a mysterious cave."
+    },
+    {
+      "name": "Wildflower Pathway",
+      "emoji": "🌺🌿",
+      "description": "A trail surrounded by colorful wildflowers."
+    },
+    {
+      "name": "Hidden Ruins Expedition",
+      "emoji": "🏛️🔍",
+      "description": "Discovering ancient ruins along the hiking path."
+    },
+    {
+      "name": "Campfire Stories",
+      "emoji": "🔥🏕️",
+      "description": "A group of hikers gathered around a cozy campfire."
+    },
+    {
+      "name": "Sunset Ridge Walk",
+      "emoji": "🌄🚶‍♂️",
+      "description": "A peaceful hike along a ridge at sunset."
+    },
+    {
+      "name": "Snowy Summit Trek",
+      "emoji": "❄️🥶",
+      "description": "A winter hike through a snow-covered mountain."
+    },
+    {
+      "name": "Hidden Waterfall Discovery",
+      "emoji": "💦🌿",
+      "description": "Hikers arriving at a stunning hidden waterfall."
+    },
+    {
+      "name": "Wildlife Encounter",
+      "emoji": "🦌🦅",
+      "description": "Spotting animals like deer or eagles on the trail."
+    },
+    {
+      "name": "Desert Dune Hike",
+      "emoji": "🏜️🥵",
+      "description": "An adventurous hike through golden sand dunes."
+    },
+    {
+      "name": "Rainforest Expedition",
+      "emoji": "🌴🌧️",
+      "description": "A jungle trek with towering trees and exotic plants."
+    },
+    {
+      "name": "Suspension Bridge Crossing",
+      "emoji": "🌉😲",
+      "description": "Walking across a swaying bridge over a deep valley."
+    },
+    {
+      "name": "Highland Panorama",
+      "emoji": "🌄📸",
+      "description": "A scenic viewpoint overlooking rolling green hills."
+    },
+    {
+      "name": "Moonlight Trail Walk",
+      "emoji": "🌕🌌",
+      "description": "A night hike under the stars and a full moon."
+    }
+  ]
+}
+
+		]
+	}
+	
