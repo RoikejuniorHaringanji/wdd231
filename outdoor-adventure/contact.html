@@ -1,102 +1,116 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Local Nature Trails & Hiking Adventures">
-        <meta property="og:type" content="website">
-        <meta property="og:image:alt" content="Local Natue Trails Logo">
-        <meta property="og:image" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/images/chamber.jpeg">
-        <meta property="og:url" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/directory.html">
-        <meta property="og:description" content="Local Nature Trails & Hiking Adventures.">
-        <meta name="facebook:card" content="summary_large_image">
-        <meta name="description" content="Local Nature Trails & Hiking Adventures">
-        <meta name="author" content="Haringanji Roike">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="styles/styles.css">
-    <title>Contact Us 📞- Local Nature Trails</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:title" content="Local Nature Trails & Hiking Adventures">
+		<meta property="og:type" content="website">
+		<meta property="og:image:alt" content="Local Natue Trails Logo">
+		<meta property="og:image" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/images/chamber.jpeg">
+		<meta property="og:url" content="https://RoikejuniorHaringanji.github.io/wdd231/chamber/directory.html">
+		<meta property="og:description" content="Local Nature Trails & Hiking Adventures.">
+		<meta name="facebook:card" content="summary_large_image">
+		<meta name="description" content="Local Nature Trails & Hiking Adventures">
+		<meta name="author" content="Haringanji Roike">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="styles/contact.css">
+	<title>Contact Us 📞- Local Nature Trails</title>
 </head>
 <body>
-    <header class="header"> 
-        <div class="logo">
-            <img src="images/trails-Logo.jpg" alt="Local Nature Trails Logo">
-        </div>
-        <nav>
-            <button id="hamburger">☰</button>
-            <div id="navMenu" class="nav-menu">
+	<header class="header"> 
+		<div class="logo">
+			<img src="images/trail-logo.webp" alt="Local Nature Trails Logo">
+		</div>
+		<nav>
+			<button id="hamburger">☰</button>
+			<div id="navMenu" class="nav-menu">
 				<a href="index.html" aria-label="Navigate to Home">Home</a>
 				<a href="gallery.html" aria-label="Navigate to Directory">gallery</a>
 				<a href="about.html" aria-label="Navigate to About Us">about</a>
 				<a href="contact.html" aria-label="Navigate to Contact Us">contact</a>
 			</div>
-        </nav>
-    </header>
+		</nav>
+	</header>
 
-    <main>
-        <section class="hero">
-            <img src="images/contact-hero.jpg" alt="Scenic trail with hikers">
-            <div class="hero-text">
-                <h1>Contact Us</h1>
-                <p>Have questions, suggestions, or want to share your hiking experience? We'd love to hear from you! Use the form below to reach out.</p>
-            </div>
-        </section>
+	<main>
+		<h1>Contact Us 📞- Local Nature Trails</h1>
+		<section class="hero">
+			<div class="hero-text">
+				<h2></h2>
+				
+				
+			</div>
+		</section>
 
-        <section class="contact-form">
-            <h2>📞 Get in Touch</h2>
-            <form action="submit-form.php" method="post">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+		<div class="container thank-you">
 
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+			<div class="submission-details">
+				<h2>Application Details:</h2>
+				<p>Have questions, suggestions, or want to share your hiking experience? We'd love to hear from you! Use the form below to reach out.</p>
+				<div class="detail-item">
+					<strong>First Name:</strong> <span id="firstName"></span>
+				</div>
+				<div class="detail-item">
+					<strong>Last Name:</strong> <span id="lastName"></span>
+				</div>
+				<div class="detail-item">
+					<strong>Email:</strong> <span id="email"></span>
+				</div>
+				<div class="detail-item">
+					<strong>Phone:</strong> <span id="phone"></span>
+				</div>
+				<div class="detail-item">
+					<strong>Organization:</strong> <span id="organization"></span>
+				</div>
+				<div class="detail-item">
+					<strong>Submission Time:</strong> <span id="timestamp"></span>
+				</div>
+			</div>
+			<a href="form-action.html" class="back-btn">Return to Home</a>
+		</div>
+		</section>
+		
 
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+		<section class="contact-info">
+			<h2>📧 Other Ways to Contact Us</h2>
+			<p><strong>📞 Phone:</strong> <a href="tel:+256123456789">+256 123 456 789</a></p>
+			<p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/256123456789">Chat with Us</a></p>
+			<p><strong>📧 Email:</strong> <a href="mailto:info@localnaturetrails.com">info@localnaturetrails.com</a></p>
+		</section>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-
-        <section class="contact-info">
-            <h2>📧 Other Ways to Contact Us</h2>
-            <p><strong>📞 Phone:</strong> <a href="tel:+256123456789">+256 123 456 789</a></p>
-            <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/256123456789">Chat with Us</a></p>
-            <p><strong>📧 Email:</strong> <a href="mailto:info@localnaturetrails.com">info@localnaturetrails.com</a></p>
-        </section>
-
-        <section class="location">
-            <h2>📍 Find Us</h2>
-            <p>Join us for hiking meetups and guided trails at our main location:</p>
-            <p><strong>Trail Headquarters:</strong> Plot 123, Mountain View Road, Nature Valley, Kampala, Uganda</p>            
-            <div class="map-container">
-                <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997733.689078119!2d32.432564599999996!3d1.2863895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db87ebf4b4d65%3A0xd25b6c3ea936e617!2sUganda!5e0!3m2!1sen!2sug!4v1700000000000" 
-                width="100%" 
-                height="300" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy">
-              </iframe>
-              
-            </div>
-        </section>
-
-        <section class="social-media">
-            <h2>📲 Connect with Us</h2>
-            <p>Follow us on social media to stay updated on new trails, events, and hiking tips!</p>
-            <div class="social-links">
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+		<section class="social-media">
+			<h2>📲 Connect with Us</h2>
+			<p>Follow us on social media to stay updated on new trails, events, and hiking tips!</p>
+			<div class="social-links">
+				<a href="#"><img src="images/twitter.png" alt="Twitter"></a>
 			<a href="#"><img src="images/instagram.png" alt="Instagram"></a>
 			<a href="#"><img src="images/facebook.png" alt="Facebook"></a>
 			<a href="#"><img src="images/youtube-logo.png" alt="youtube"></a>
-            </div>
-        </section>
-    </main>
+			</div>
+		</section>
+		<section class="location">
+			<h2>📍 Find Us</h2>
+			<p>Join us for hiking meetups and guided trails at our main location:</p>
+			<p><strong>Trail Headquarters:</strong> Plot 123, Mountain View Road, Nature Valley, Kampala, Uganda</p>            
+			<div class="map-container">
+				<iframe 
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997733.689078119!2d32.432564599999996!3d1.2863895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db87ebf4b4d65%3A0xd25b6c3ea936e617!2sUganda!5e0!3m2!1sen!2sug!4v1700000000000" 
+				width="100%" 
+				height="300" 
+				style="border:0;" 
+				allowfullscreen="" 
+				loading="lazy">
+			  </iframe>
+			  
+			</div>
+		</section>
 
-    <footer class="footer">
+	</main>
+
+	<footer class="footer">
 		<div class="social-media">
 			<a href="#"><img src="images/twitter.png" alt="Twitter"></a>
 			<a href="#"><img src="images/instagram.png" alt="Instagram"></a>
@@ -119,6 +133,5 @@
 	  </div>
 	  
 	</footer>
-    <script src="scripts/contact.js"></script>
 </body>
 </html>

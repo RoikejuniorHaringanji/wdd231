@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Nature's Wonders - A Visual Journey">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="images/gallery-hero.jpg">
-    <meta property="og:description" content="Step into a breathtaking visual journey through nature's most enchanting trails.">
-    <meta name="description" content="Explore the beauty of nature through our photo gallery. Let the adventure begin!">
-    <meta name="author" content="Haringanji Roike">
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Outdoor Adventure Club – Explore, Experience, Connect</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Nature's Wonders - A Visual Journey">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="images/gallery-hero.jpg">
+	<meta property="og:description" content="Step into a breathtaking visual journey through nature's most enchanting trails.">
+	<meta name="description" content="Explore the beauty of nature through our photo gallery. Let the adventure begin!">
+	<meta name="author" content="Haringanji Roike">
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/gallery.css">
+	<title>Outdoor Adventure Club – Explore, Experience, Connect</title>
 </head>
 <body>
 
-    <header class="header"> 
-        <div class="logo">
-            <img src="images/trails-Logo.jpg" alt="Local Nature Trails Logo">
-        </div>
-        <nav>
-            <button id="hamburger">☰</button>
-            <div id="navMenu" class="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="gallery.html" class="active">Gallery</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-    </header>
+	<header class="header"> 
+		<div class="logo">
+			<img src="images/trail-logo.webp" alt="Local Nature Trails Logo">
+		</div>
+		<nav>
+			<button id="hamburger">☰</button>
+			<div id="navMenu" class="nav-menu">
+				<a href="index.html">Home</a>
+				<a href="gallery.html" class="active">Gallery</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+	</header>
 
-    <main>
+	<main>
+		<h1>🌿 Nature's Wonders: A Visual Journey 🌿</h1>
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero-image">
+				<h2>Gallery of Outdoor Adventures</h2>
+				<p>Step into the heart of nature through breathtaking images that capture the soul of adventure.</p>
+			</div>
+		</section>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-image">
-                <h1>🌿 Nature's Wonders: A Visual Journey 🌿</h1>
-                <p>Step into the heart of nature through breathtaking images that capture the soul of adventure.</p>
-            </div>
-        </section>
-
-        <!-- Introduction -->
-        <section class="gallery-intro">
-            <h2>A Picture is Worth a Thousand Adventures</h2>
-            <p>Let your eyes wander through the untamed beauty of lush forests, shimmering waterfalls, and golden sunrise-lit trails. This gallery isn't just a collection of images—it's an invitation to explore, breathe, and lose yourself in the wonders of nature.</p>
-        </section>
+		<!-- Introduction -->
+		<section class="gallery-intro">
+			<h2>Gallery of Outdoor Adventures</h2>
+			<p>Explore the best of hiking, biking, and camping through our carefully curated gallery.</p>
+		</section>
+		
+		
+		
+ <!-- Container for dynamically generated content -->
+ <section id="activitiesList"></section>
 
 
-        <!-- Call to Action -->
-        <section class="call-to-action">
-            <h2>Capture the Magic—Create Your Own Story</h2>
-            <p>Every photo is an invitation to step outside, breathe deeply, and embrace the wonders of the natural world. Whether you’re hiking through misty peaks or strolling along a riverside path, your next great adventure begins here.</p>
-            <p><strong>Share your journey with us using #NatureTrailsAdventure</strong></p>
-        </section>
 
-    </main>
+		<!-- Call to Action -->
+		<section class="call-to-action">
+			<h2>Capture the Magic—Create Your Own Story</h2>
+			<p>Every photo is an invitation to step outside, breathe deeply, and embrace the wonders of the natural world. Whether you’re hiking through misty peaks or strolling along a riverside path, your next great adventure begins here.</p>
+			<p><strong>Share your journey with us using #NatureTrailsAdventure</strong></p>
+		</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="social-media">
-            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="images/whatsapp_icon.png" alt="whatsapp"></a>
-        </div>
-        <div class="footer-info">
-            <p>Email: <a href="mailto:info@naturetrails.com">info@naturetrails.com</a></p>
-            <p>Hiking Adventures, Kampala, Uganda</p>
-            <p>Phone: +256-41-2345-6789</p>
-            <p>Fax: +256-41-2345-6790</p>
-        </div>
-        <div class="footer-info">
-            <p>Hiking Adventures Project</p>
-            <p>*** Haringanji Roike *** Uganda</p>
-            <p>&copy; <span class="currentyear"></span> Local Nature Trails</p>
-            <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
-        </div>
-    </footer>
+	</main>
 
-    <script src="scripts/script.js"></script>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="social-media">
+			<a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+			<a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+			<a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+			<a href="#"><img src="images/whatsapp_icon.png" alt="whatsapp"></a>
+		</div>
+		<div class="footer-info">
+			<p>Email: <a href="mailto:info@naturetrails.com">info@naturetrails.com</p>
+			<p>Hiking Adventures, Kampala, Uganda</p>
+			<p>Phone: +256-41-2345-6789</p>
+			<p>Fax: +256-41-2345-6790</p>
+		</div>
+		<div class="footer-info">
+			<p>Hiking Adventures Project</p>
+			<p>*** Haringanji Roike *** Uganda</p>
+			<p>&copy; <span class="currentyear"></span> Local Nature Trails</p>
+			<p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+		</div>
+	</footer>
+
+	<script src="scripts/gallery.js"></script>
 </body>
 </html>

@@ -1,29 +1,67 @@
-// Wait until the DOM is fully loaded before executing the script
-document.addEventListener("DOMContentLoaded", function () {
-    // Set the current year dynamically in the footer
-    document.getElementById("year").textContent = new Date().getFullYear();
+// Array of leadership team members (images, names, and roles)
+const leadershipData = [
+    {
+        name: "Steven Doe",
+        role: "President",
+        image: "images/steven-doe.webp"
+    },
+    {
+        name: "John Smith",
+        role: "Vice President",
+        image: "images/john-smith.webp"
+    },
+    {
+        name: "Alice Johnson",
+        role: "Event Coordinator",
+        image: "images/Alice-johnson.webp"
+    },
+    {
+        name: "Robert Brown",
+        role: "Member Engagement",
+        image: "images/Robert-brown.webp"
+    }
+];
 
-    // Add content to the club-intro section
-    document.getElementById("club-intro").innerHTML = `
-        <h2>Join the Club</h2>
-        <p>Embark on a journey of discovery and connection with nature. Our club offers a range of activities and benefits for outdoor enthusiasts of all levels.</p>
-    `;
+// Function to dynamically insert the leadership team into the page with lazy loading
+function loadLeadershipTeam() {
+    const gridContainer = document.getElementById('leadership-grid'); // Ensure this matches your HTML
 
-    // Add content to the benefits section
-    document.getElementById("benefits").innerHTML = `
-        <h2>Why Join Us?</h2>
-        <ul>
-            <li>Guided outdoor trips with experts</li>
-            <li>Exclusive gear discounts</li>
-            <li>Community events and meetups</li>
-            <li>Access to members-only adventure guides</li>
-        </ul>
-    `;
+    leadershipData.forEach(leader => {
+        const leaderDiv = document.createElement('div');
+        leaderDiv.classList.add('leader');
 
-    // Add content to the join section
-    document.getElementById("join").innerHTML = `
-        <h2>Become a Member</h2>
-        <p>Ready for your next adventure? Join our club today!</p>
-        <a href="contact.html" class="btn">Join Now</a>
-    `;
-});
+        // Create the image element with lazy loading
+        const img = document.createElement('img');
+        img.src = leader.image;
+        img.alt = `${leader.name} - ${leader.role}`;
+        img.loading = "lazy"; // Enables lazy loading
+        img.classList.add("leader-img"); // Optional: Add a class for styling
+
+        // Create the name and role elements
+        const name = document.createElement('h3');
+        name.textContent = leader.name;
+
+        const role = document.createElement('p');
+        role.textContent = leader.role;
+
+        // Append elements to the leaderDiv
+        leaderDiv.appendChild(img);
+        leaderDiv.appendChild(name);
+        leaderDiv.appendChild(role);
+
+        // Append the leaderDiv to the grid container
+        gridContainer.appendChild(leaderDiv);
+    });
+}
+
+// Load leadership team when the page is fully loaded
+document.addEventListener("DOMContentLoaded", loadLeadershipTeam);
+// Hamburger menu logic
+const hamburgerButton = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+if (hamburgerButton && navMenu) {
+    hamburgerButton.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+    });
+}

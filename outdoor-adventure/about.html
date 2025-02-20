@@ -3,89 +3,109 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:title" content="Explore the Wonders of Nature Trails & Hiking Adventures">
+	<meta property="og:title" content="Gallery - Outdoor Adventure Club – Explore, Experience, Connect">
 	<meta property="og:type" content="website">
-	<meta property="og:image:alt" content="Logo of Local Nature Trails">
-	<meta property="og:url" content="https://RoikejuniorHaringanji.github.io/wdd231/nature-trails/index.html">
-	<meta property="og:description" content="Discover the beauty of nature through scenic trails and exciting hiking adventures.">
-	<meta name="facebook:card" content="summary_large_image">
-	<meta name="description" content="Embark on unforgettable hiking experiences and explore the best nature trails.">
+	<meta property="og:image" content="images/gallery-hero.jpg">
+	<meta property="og:image:alt" content="A breathtaking hiking trail">
+	<meta property="og:url" content="https://RoikejuniorHaringanji.github.io/wdd231/nature-trails/gallery.html">
+	<meta property="og:description" content="A breathtaking collection of nature and hiking adventures. Explore the beauty of trails through our gallery.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="description" content="Discover stunning images of nature trails and hiking adventures. Let these breathtaking moments inspire your next journey!">
 	<meta name="author" content="Haringanji Roike">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 	<link rel="icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="styles/styles.css">
-	<title>Nature Trails & Hiking Adventures: Explore the Outdoors</title>
+	<link rel="stylesheet" href="styles/about.css">
+	
+	<title>Outdoor Adventure Club – Explore, Experience, Connect</title>
 </head>
+
 <body>
 	<header class="header"> 
 		<div class="logo">
-			<img src="images/trails-Logo.jpg" alt="Logo of Local Nature Trails">
+			<img src="images/trail-logo.webp" alt="Local Nature Trails Logo">
+		   
 		</div>
 		<nav>
 			<button id="hamburger">☰</button>
 			<div id="navMenu" class="nav-menu">
-				<a href="index.html" aria-label="Navigate to the Home Page">Home</a>
-				<a href="gallery.html" aria-label="Explore our Gallery">Gallery</a>
-				<a href="about.html" aria-label="Learn More About Us">About Us</a>
-				<a href="contact.html" aria-label="Contact Us for More Information">Contact Us</a>
+				<a href="index.html" aria-label="Navigate to Home">Home</a>
+				<a href="gallery.html" aria-label="Navigate to Directory">gallery</a>
+				<a href="about.html" aria-label="Navigate to About Us">about</a>
+				<a href="contact.html" aria-label="Navigate to Contact Us">contact</a>
 			</div>
 		</nav>
 	</header>
-		
+	
 	<main>
-		<h1>Discover the Beauty of Nature Trails & Hiking Adventures</h1>
+		<h1>Outdoor Adventure Club – Explore, Experience, Connect</h1>
 		<section class="hero">
 			<div class="hero-image">
-			<h2>Unveil the Best Hiking Trails</h2>
-			<p>Embark on unforgettable journeys through breathtaking landscapes and discover hidden gems.</p>
+			<h2>Discover the Best Hiking Trails</h2>
+			<p>Explore breathtaking landscapes and hidden gems.</p>
+			</div>
+			</section>
+
+		<section id="missing-values">
+			<div class="container">
+				<h2>Mission & Values</h2>
+				<p>Our mission is to foster a love for adventure while promoting sustainability and inclusivity. We believe that everyone should have the opportunity to experience the great outdoors in a supportive, welcoming environment. Our core values are:</p>
+					<li><strong>Sustainability:</strong> We are committed to preserving the environment for future generations.</li>
+					<li><strong>Adventure:</strong> We encourage our members to step out of their comfort zones and explore the world around them.</li>
+					<li><strong>Inclusivity:</strong> We strive to make everyone feel welcome, regardless of experience or background.</li>
+				</ul>
 			</div>
 		</section>
-		
-		 <!-- Our Story Section -->
-		 <section id="our-story">
-            <div class="container">
-                <h1>Our Story</h1>
-                <p>Founded in 2010, our club began with a shared passion for the outdoors and adventure. We started with just a few members exploring local trails, and over the years, we’ve grown into a vibrant community of enthusiasts. Our commitment to sustainability and inclusivity has been the backbone of our success, and we continue to inspire each other to take on new challenges and create lasting memories.</p>
-            </div>
-        </section>
 
-		        <!-- Mission & Values Section -->
-				<section id="mission-values">
-					<div class="container">
-						<h2>Mission & Values</h2>
-						<p>Our mission is to foster a love for adventure while promoting sustainability and inclusivity. We believe that everyone should have the opportunity to experience the great outdoors in a supportive, welcoming environment. Our core values are:</p>
-						<ul>
-							<li><strong>Sustainability:</strong> We are committed to preserving the environment for future generations.</li>
-							<li><strong>Adventure:</strong> We encourage our members to step out of their comfort zones and explore the world around them.</li>
-							<li><strong>Inclusivity:</strong> We strive to make everyone feel welcome, regardless of experience or background.</li>
-						</ul>
-					</div>
-				</section>
-		
+		<!-- Leadership Team Section -->
+		<section id="leadership">
+			<div class="container">
+				<h2>Leadership Team</h2>
+				<p>Our leadership team is made up of passionate individuals dedicated to guiding and growing our club. Meet the people who make it all happen:</p>
+				<div id="leadership-grid" class="leadership-grid">
+					<!-- Leadership team will be dynamically loaded here -->
+				</div>
+			</div>
+		</section>
+			
+
+		<section id="testimonials">
+			<div class="container">
+				<h2>Member Testimonials</h2>
+				<blockquote>
+					"Joining this club has been a life-changing experience! The sense of community and adventure is unparalleled." - Sarah, Member
+				</blockquote>
+				<blockquote>
+					"I love how inclusive and welcoming everyone is here. I’ve made lifelong friends and explored places I never thought possible." - David, Member
+				</blockquote>
+			</div>
+		</section>
 	</main>
-	<footer class="footer">
-		<div class="social-media">
-			<a href="#"><img src="images/twitter.png" alt="Follow us on Twitter"></a>
-			<a href="#"><img src="images/instagram.png" alt="Follow us on Instagram"></a>
-			<a href="#"><img src="images/facebook.png" alt="Like us on Facebook"></a>
-			<a href="#"><img src="images/whatsapp_icon.png" alt="Connect with us on WhatsApp"></a>
-		</div>
-		<div class="footer-info">
-			<p>For inquiries, email us at: <a href="mailto:info@naturetrails.com">info@naturetrails.com</a></p>
-			<p>Hiking Adventures, Kampala, Uganda</p>
-			<p>Phone: +256-41-2345-6789</p>
-			<p>Fax: +256-41-2345-6790</p>
-		</div>
-		
-		<div class="footer-info">
-			<p>Project by Hiking Adventures</p>
-			<p>Created by: *** Haringanji Roike *** Uganda</p>
-			<p>&copy; <span class="currentyear"></span> Local Nature Trails</p>
-			<p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
-		</div>
-	</footer>
-	<script src="scripts/script.js"></script>
+
+
+<!-- Footer -->
+<footer class="footer">
+	<div class="social-media">
+		<a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+		<a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+		<a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+		<a href="#"><img src="images/whatsapp_icon.png" alt="whatsapp"></a>
+	</div>
+	<div class="footer-info">
+		<p>Email: <a href="mailto:info@naturetrails.com">info@naturetrails.com</a></p>
+		<p>Hiking Adventures, Kampala, Uganda</p>
+		<p>Phone: +256-41-2345-6789</p>
+		<p>Fax: +256-41-2345-6790</p>
+	</div>
+	<div class="footer-info">
+		<p>Hiking Adventures Project</p>
+		<p>*** Haringanji Roike *** Uganda</p>
+		<p>&copy; <span class="currentyear"></span> Local Nature Trails</p>
+		<p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
+	</div>
+</footer>
+
+<script src="scripts/main.js"></script>
 </body>
 </html>

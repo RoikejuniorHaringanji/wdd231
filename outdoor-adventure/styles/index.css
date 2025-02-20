@@ -1,0 +1,245 @@
+/* General Styles */
+:root {
+	--primary-color: #149997;
+	--secondary-color: #0a4746;
+	--background-color: #f0f8f0;
+	--text-color: #222;
+	--font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-family: var(--font-family);
+	margin: 0;
+	padding: 0;
+	background: var(--background-color);
+}
+
+/* Header */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
+	padding: 15px 30px;
+	border-bottom: 2px solid var(--primary-color);
+}
+
+.header img {
+	max-width: 150px; /* Adjust the width as needed */
+	height: auto; /* Maintain aspect ratio */
+}
+
+.nav-menu {
+	display: flex;
+	gap: 15px;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--text-color);
+}
+
+.nav-menu .active {
+	color: var(--primary-color);
+}
+
+#hamburger {
+	display: none;
+}
+
+/* Hero */
+.hero {
+	position: 350px;
+	background: url("../images/campfire.webp") center/cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+/* Benefits */
+.benefits-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	padding: 20px;
+}
+
+.benefit {
+	background: white;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.benefit img {
+	width: 100px;
+	height: auto;
+}
+
+/* Why Hiking Section Styles */
+.why-hiking {
+	background: rgb(129, 241, 129);
+	color: rgb(12, 5, 5);
+	padding: 50px 20px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	margin: 40px 0;
+}
+
+.why-hiking h2 {
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	color: #0a0202;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.why-hiking p {
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 0 auto;
+	max-width: 800px;
+	color: #012801;
+	font-weight: 300;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a subtle hover effect on the heading */
+.why-hiking h2:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+	.why-hiking {
+		padding: 30px 20px;
+	}
+
+	.why-hiking h2 {
+		font-size: 28px;
+	}
+
+	.why-hiking p {
+		font-size: 16px;
+	}
+}
+
+/* Why Join Us Styles */
+#benefits h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(63, 36, 3);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Bounce Effect */
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply animation to the header when clicked */
+.bounce {
+    animation: bounce 0.5s ease;
+}
+
+footer {
+	background: #d2e6fa;
+	color: rgb(12, 1, 1);
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 20px;
+	flex-wrap: wrap; 
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.footer-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.footer-section p, .footer-section a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-section a:hover {
+	text-decoration: underline;
+}
+
+.social-icons {
+	display: flex;
+	gap: 10px;
+}
+.social-media img {
+	width: 30px; 
+	height: 30px; 
+}
+
+.social-icons a {
+	color: white;
+	font-size: 20px;
+}
+@media (max-width: 768px) {
+	footer {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer-container {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	#hamburger {
+		display: block;
+	}
+
+	.nav-menu {
+		display: none;
+		flex-direction: column;
+		background: white;
+		position: absolute;
+		top: 60px;
+		left: 0;
+		right: 0;
+		padding: 10px;
+	}
+
+	.nav-menu.show {
+		display: flex;
+	}
+}
