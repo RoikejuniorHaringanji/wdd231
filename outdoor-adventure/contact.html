@@ -45,31 +45,32 @@
 			</div>
 		</section>
 
-		<div class="container thank-you">
+	 <!-- CONTACT FORM -->
+	 <div class="container">
+		<form id="contactForm">
+			<h2>Contact Us</h2>
+			<p>Have questions about our hiking trails or need help planning your next adventure? Fill out the form below and we'll get back to you as soon as possible!</p>
+			<label for="firstName">First Name:</label>
+			<input type="text" id="firstName" name="firstName" required>
 
-			<div class="submission-details">
-				<h2>Application Details:</h2>
-				<p>Have questions, suggestions, or want to share your hiking experience? We'd love to hear from you! Use the form below to reach out.</p>
-				<div class="detail-item">
-					<strong>First Name:</strong> <span id="firstName"></span>
-				</div>
-				<div class="detail-item">
-					<strong>Last Name:</strong> <span id="lastName"></span>
-				</div>
-				<div class="detail-item">
-					<strong>Email:</strong> <span id="email"></span>
-				</div>
-				<div class="detail-item">
-					<strong>Phone:</strong> <span id="phone"></span>
-				</div>
-				<div class="detail-item">
-					<strong>Organization:</strong> <span id="organization"></span>
-				</div>
-				<div class="detail-item">
-					<strong>Submission Time:</strong> <span id="timestamp"></span>
-				</div>
-			</div>
-			<a href="form-action.html" class="back-btn">Return to Home</a>
+			<label for="lastName">Last Name:</label>
+			<input type="text" id="lastName" name="lastName" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+
+			<label for="questions">Do you have any questions? (Optional)</label>
+			<textarea id="questions" name="questions" rows="3"></textarea>
+
+			<label for="experience">Share your hiking experience (Optional):</label>
+			<textarea id="experience" name="experience" rows="4"></textarea>
+
+			<button type="submit">Submit</button>
+		</form>
+	</div>
 		</div>
 		</section>
 		
@@ -89,22 +90,6 @@
 			<a href="#"><img src="images/instagram.png" alt="Instagram"></a>
 			<a href="#"><img src="images/facebook.png" alt="Facebook"></a>
 			<a href="#"><img src="images/youtube-logo.png" alt="youtube"></a>
-			</div>
-		</section>
-		<section class="location">
-			<h2>📍 Find Us</h2>
-			<p>Join us for hiking meetups and guided trails at our main location:</p>
-			<p><strong>Trail Headquarters:</strong> Plot 123, Mountain View Road, Nature Valley, Kampala, Uganda</p>            
-			<div class="map-container">
-				<iframe 
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997733.689078119!2d32.432564599999996!3d1.2863895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db87ebf4b4d65%3A0xd25b6c3ea936e617!2sUganda!5e0!3m2!1sen!2sug!4v1700000000000" 
-				width="100%" 
-				height="300" 
-				style="border:0;" 
-				allowfullscreen="" 
-				loading="lazy">
-			  </iframe>
-			  
 			</div>
 		</section>
 
@@ -131,7 +116,7 @@
 		  <p>&copy; <span class="currentyear"></span> Local Nature Trails</p>
 		  <p><span class="currentyear"></span> | Last Updated: <span id="lastModified"></span></p>
 	  </div>
-	  
+	  <script src="scripts/contact.js" defer></script>
 	</footer>
 </body>
 </html>
