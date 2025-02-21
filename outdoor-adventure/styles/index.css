@@ -49,6 +49,7 @@ body {
 
 /* Hero */
 .hero {
+	height: 350px;
 	background: url("../images/campfire.webp") center/cover;
 	display: flex;
 	align-items: center;
@@ -131,31 +132,31 @@ body {
 
 /* Why Join Us Styles */
 #benefits h2 {
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: rgb(63, 36, 3);
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(63, 36, 3);
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
 }
 
 /* Bounce Effect */
 @keyframes bounce {
-    0% {
-        transform: scale(1);
-    }
-    30% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1);
-    }
-    70% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
+	0% {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(1.1);
+	}
+	50% {
+		transform: scale(1);
+	}
+	70% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 /* Footer */
