@@ -1,56 +1,56 @@
 {
 	"hiking_activities": [
 	  {
-		"name": "Sunrise Peak Trail 🌄",
+		"activity": "Sunrise Peak Trail ",
 		"description": "A moderate hike that rewards hikers with breathtaking sunrise views. The trail winds through lush forests and rocky terrain.",
 		"distance": "4.5 miles",
 		"type": "Round Trip",
 		"image": "images/sunrise-peak.webp"
 	  },
 	  {
-		"name": "Eagle Rock Loop 🦅",
+		"activity": "Eagle Rock Loop ",
 		"description": "A scenic loop with waterfalls, river crossings, and panoramic mountain views. Ideal for experienced hikers.",
 		"distance": "26.8 miles",
 		"type": "Loop",
 		"image": "images/Eagle.webp"
 	  },
 	  {
-		"name": "Whispering Pines Trail 🌲",
+		"activity": "Whispering Pines Trail ",
 		"description": "A family-friendly trail through dense pine forests, perfect for birdwatching and relaxing walks.",
 		"distance": "2.3 miles",
 		"type": "One Way",
 		"image": "images/whispering.webp"
 	  },
 	  {
-		"name": "Blue Lake Trail 💧",
+		"activity": "Blue Lake Trail ",
 		"description": "A picturesque hike leading to a stunning alpine lake surrounded by towering peaks. Great for photography.",
 		"distance": "6.2 miles",
 		"type": "Round Trip",
 		"image": "images/Blue-lake.webp"
 	  },
 	  {
-		"name": "Hidden Falls Trail ⛰️",
+		"activity": "Hidden Falls Trail ",
 		"description": "A short but rewarding trail that leads to a beautiful hidden waterfall, with misty views and cool air.",
 		"distance": "1.8 miles",
 		"type": "Round Trip",
 		"image": "images/hidden-falls.webp"
 	  },
 	  {
-		"name": "Rocky Ridge Challenge 🏔️",
+		"activity": "Rocky Ridge Challenge ",
 		"description": "A strenuous uphill climb with rocky paths, offering a challenging yet thrilling adventure for experienced hikers.",
 		"distance": "7.5 miles",
 		"type": "One Way",
 		"image": "images/Rock-ridge.webp"
 	  },
 	  {
-		"name": "Meadow Loop Trail 🌿",
+		"activity": "Meadow Loop Trail",
 		"description": "A peaceful and easy trail winding through wildflower meadows, perfect for beginners and families.",
 		"distance": "3.0 miles",
 		"type": "Loop",
 		"image": "images/Meadow-loop.webp"
 	  },
 	  {
-		"name": "Canyon Overlook Path 🏞️",
+		"activity": "Canyon Overlook Path ",
 		"description": "A short but steep climb leading to a breathtaking canyon overlook. Great for sunrise or sunset views.",
 		"distance": "1.2 miles",
 		"type": "Round Trip",
