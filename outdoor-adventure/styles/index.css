@@ -158,25 +158,23 @@ body {
     }
 }
 
-/* Apply animation to the header when clicked */
-.bounce {
-    animation: bounce 0.5s ease;
-}
-
-footer {
-	background: #d2e6fa;
-	color: rgb(12, 1, 1);
+/* Footer */
+.footer {
+	background: rgb(197, 243, 197);
+	color: rgb(15, 1, 1);
 	display: flex;
-	justify-content: space-between; 
-	align-items: center; 
+	justify-content: space-between;
+	align-items: center;
 	padding: 20px;
-	flex-wrap: wrap; 
+	flex-wrap: wrap;
+	text-align: center;
 }
 
 .footer-container {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	flex-wrap: wrap;
 }
 
 .footer-section {
@@ -186,9 +184,11 @@ footer {
 	padding: 10px;
 }
 
-.footer-section p, .footer-section a {
+
+.footer-section a {
 	color: white;
 	text-decoration: none;
+	font-size: 14px;
 }
 
 .footer-section a:hover {
@@ -197,21 +197,32 @@ footer {
 
 .social-icons {
 	display: flex;
-	gap: 10px;
-}
-.social-media img {
-	width: 30px; 
-	height: 30px; 
+	gap: 12px;
 }
 
-.social-icons a {
-	color: white;
-	font-size: 20px;
+.social-media img {
+	width: 30px;
+	height: 30px;
 }
+
+.social-media img:hover {
+	transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-	footer {
+	.hero {
+		height: 300px;
+		padding: 10px;
+	}
+
+	.hero-content {
+		padding: 1.5rem;
+		font-size: 0.9rem;
+	}
+
+	.footer {
 		flex-direction: column;
-		text-align: center;
 	}
 
 	.footer-container {
@@ -220,8 +231,18 @@ footer {
 	}
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Hamburger Menu */
+#hamburger {
+	font-size: 1.5rem;
+	background: none;
+	border: none;
+	color: var(--text-color);
+	cursor: pointer;
+	outline: none;
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
 	#hamburger {
 		display: block;
 	}
@@ -229,15 +250,14 @@ footer {
 	.nav-menu {
 		display: none;
 		flex-direction: column;
-		background: white;
-		position: absolute;
-		top: 60px;
-		left: 0;
-		right: 0;
-		padding: 10px;
+		width: 100%;
+		text-align: center;
 	}
 
 	.nav-menu.show {
 		display: flex;
+		background: white;
+		padding: 10px;
+		border-top: 2px solid var(--primary-color);
 	}
 }

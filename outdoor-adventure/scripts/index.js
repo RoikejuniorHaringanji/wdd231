@@ -1,11 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-	// Hamburger Menu Toggle
-	const hamburger = document.getElementById("hamburger");
-	const navMenu = document.getElementById("navMenu");
-
-	hamburger.addEventListener("click", function () {
-		navMenu.classList.toggle("show");
-	});
 
 	// Dynamic Benefits Section
 	const benefitsGrid = document.querySelector(".benefits-grid");
