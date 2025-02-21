@@ -10,7 +10,6 @@
 
 /* Global Styles */
 body, html {
-	font-family: var(--font-family);
 	margin: 0;
 	padding: 0;
 	background: var(--background-color);
@@ -76,7 +75,6 @@ a:hover {
 	border: none;
 	cursor: pointer;
 	font-weight: bold;
-	transition: var(--transition);
 }
 
 .hero-button:hover {
